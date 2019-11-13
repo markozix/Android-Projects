@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalisActivity">
+
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_name"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_cost"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/tv_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_category"/>
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/tv_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_date"/>
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:id="@+id/iv_slika"
+        android:layout_height="200dp" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnRemove"
+        android:layout_below="@+id/iv_slika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REMOVE"/>
+
+
+</RelativeLayout>

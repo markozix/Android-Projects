@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragmenti.SecondFragment">
+
+    <EditText
+        android:layout_marginTop="55dp"
+        android:id="@+id/filterEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Filter result below:"/>
+
+    <Spinner
+        android:id="@+id/dropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/filterEditText"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/btnApply"
+        android:layout_toRightOf="@+id/dropDown"
+        android:layout_below="@id/filterEditText"
+        android:text="Apply"
+
+        />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewSF"
+        android:layout_below="@+id/dropDown"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+</RelativeLayout>

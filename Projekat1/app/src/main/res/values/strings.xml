@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Projekat1</string>
+
+    <string name="category_prompt"> Choose a category</string>
+
+    <string-array name="category_list">
+        <item>Fun</item>
+        <item>Pleasure</item>
+        <item>Work</item>
+        <item>Food</item>
+        <item>Home</item>
+    </string-array>
+
+
+</resources>

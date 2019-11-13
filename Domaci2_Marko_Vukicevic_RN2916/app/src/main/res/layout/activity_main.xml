@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/et_naVrhu"
+       android:layout_width="match_parent"
+       android:layout_height="50dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/et_naVrhu"
+        android:id="@+id/recyclerView"
+        android:layout_above="@+id/et_naDnu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+    <EditText
+        android:id="@+id/et_naDnu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btn_add"
+        />
+    <Button
+        android:id="@+id/btn_add"
+        android:text="ADD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        />
+
+
+
+</RelativeLayout>

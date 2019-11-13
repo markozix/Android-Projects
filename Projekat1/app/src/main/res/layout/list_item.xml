@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/categoryLabel"
+        android:layout_below="@+id/nameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <TextView
+        android:id="@+id/costLabel"
+        android:layout_below="@+id/categoryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <TextView
+        android:layout_toRightOf="@+id/nameLabel"
+        android:layout_alignParentRight="true"
+        android:id="@+id/dateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/btnRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/costLabel"
+        android:layout_marginLeft="100dp"
+        android:text="Remove"
+        />
+    <Button
+        android:id="@+id/btnDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/costLabel"
+        android:layout_marginLeft="230dp"
+        android:text="Details"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginBottom="5dp"
+    >
+
+
+    <TextView
+        android:id="@+id/predmet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:layout_below="@+id/predmet"
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_below="@+id/tip"
+        android:id="@+id/dan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_below="@+id/dan"
+        android:id="@+id/profesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_below="@+id/profesor"
+        android:id="@+id/ucionica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+
+    <TextView
+        android:layout_below="@+id/ucionica"
+        android:id="@+id/grupe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:layout_below="@+id/tip"
+        android:layout_toEndOf="@+id/dan"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/termin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+</RelativeLayout>

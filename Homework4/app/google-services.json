@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "420420234737",
+    "firebase_url": "https://tralalalalla.firebaseio.com",
+    "project_id": "tralalalalla",
+    "storage_bucket": "tralalalalla.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420420234737:android:19ea7322f49ccd14",
+        "android_client_info": {
+          "package_name": "com.example.homework4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420420234737-tjfrdqj14aipe5fil9fe5rqeumdq4koc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.homework4",
+            "certificate_hash": "601a613b09a9f3a4aaf7ea8358fed0fbd18d2c7d"
+          }
+        },
+        {
+          "client_id": "420420234737-e52l5ggrg1q1ah2kfe9lk12kfam8rui9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTjJxqD9tSKGdcvHLZwHZj_DUPBH31UV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420420234737-e52l5ggrg1q1ah2kfe9lk12kfam8rui9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
